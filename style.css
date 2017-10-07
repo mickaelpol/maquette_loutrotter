@@ -1,0 +1,107 @@
+/*  Vert du theme : #CFEB00 
+    Marron du theme : #A65E35 
+    couleur titre Titre : #7F9E29
+    couleur paragraphe : #B85F00 
+    police des titres : Hamurz (https://www.dafont.com/fr/hamurz.font)
+    police des paragraphes : caviar_dreams bold (https://www.dafont.com/fr/caviar-dreams.font)
+*/
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: #F0E9E9;
+    margin-top: 5em;
+}
+.bord {
+    border: 1px solid black;
+}
+@font-face {
+    font-family: 'Hamurz';
+    src: url('hamurz/Hamurz Free Version.otf?')format('otf'),
+        url('hamurz/Hamurz Free Version.ttf')format('truetype');
+}
+
+@font-face {
+    font-family: 'caviar_dreams';
+    src: url('caviar_dreams/CaviarDreams_bold.ttf')format('truetype');
+}
+
+h1 small {
+    color: #7F9E29;
+}
+
+h1 {
+    color: #7F9E29;
+    font-family: Hamurz;
+    font-size: 5em;
+    /* text-shadow: 1px 20px 25px black; */
+}
+h2 {
+    color: #7F9E29;
+    font-family: Hamurz;
+    font-size: 3em;
+}
+h3 {
+    color: #7F9E29;
+    font-family: Hamurz;
+    font-size: 2em;
+}
+
+p {
+    color: #B85F00;
+    font-family: caviar_dreams;
+    font-size: 22px;
+}
+
+.page-header {
+    border-bottom: 1px solid rgb(192, 186, 186);
+}
+
+.glyphicon {
+    color: #A65E35;
+}
+.glyphicon-th-list:hover, .glyphicon-th-list:focus {
+    color: #6D3B21;
+}
+.glyphicon-off:hover, .glyphicon-off:focus {
+    color : #6D3B21;
+}
+
+.navbar-default {
+    box-shadow: 1px 1px 25px black;
+    border: none;
+}
+
+.navbar-default .navbar-nav>li>a , .navbar-default {
+    background-color: #CFEB00;
+    color : #A65E35;
+    font-family: Hamurz;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    background-color: #CFEB00;
+    color: #6D3D23;
+    font-family: Hamurz;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: #A1B602;
+    color: #6D3D23;
+    font-family: Hamurz;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    font-family: Hamurz;
+}
+.margeContour {
+    margin: 0 5%;
+}
+.margePara {
+    margin: 6% 2%;
+}
+
+.footer {
+    background-color: #CFEB00;
+}
+.partenaires{
+    background-color: green;
+}
+.partenaires img {
+}
