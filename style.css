@@ -59,8 +59,12 @@ p {
 .glyphicon {
     color: #A65E35;
 }
+.glyphicon-th-list {
+    font-size: 20px;
+}
 .glyphicon-th-list:hover, .glyphicon-th-list:focus {
     color: #6D3B21;
+    font-size: 20px;
 }
 .glyphicon-off:hover, .glyphicon-off:focus {
     color : #6D3B21;
@@ -75,6 +79,7 @@ p {
     background-color: #CFEB00;
     color : #A65E35;
     font-family: Hamurz;
+    font-size: 20px;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
     background-color: #CFEB00;
@@ -85,9 +90,12 @@ p {
     background-color: #A1B602;
     color: #6D3D23;
     font-family: Hamurz;
+    font-size: 20px;
+    width: 100%;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     font-family: Hamurz;
+    width: 100%;
 }
 .margeContour {
     margin: 0;
