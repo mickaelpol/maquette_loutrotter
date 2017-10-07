@@ -90,16 +90,24 @@ p {
     font-family: Hamurz;
 }
 .margeContour {
-    margin: 0 5%;
+    margin: 0;
 }
 .margePara {
-    margin: 6% 2%;
+    margin: 6% 0% 5% 0%;
 }
 
 .footer {
     background-color: #CFEB00;
 }
-.partenaires img{
-    width: 100%;
-}
 
+.tailleRes {
+    margin-top: 1em;
+    font-size: 3em;
+}
+.imgPart {
+    margin-top: 3em;
+    width: 70px;
+}
+.copyright {
+    margin: 5% 0 5% 0;
+}
